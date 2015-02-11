@@ -14,7 +14,7 @@ location within Yii Basic project:
 
 Once replaced, the $brandLogo class can be added to the NavBar in your layout:
 
-		<?php
+	<?php
             NavBar::begin([
                 'brandLogo' => ' IMAGE URL HERE ',
                 'brandLabel' => '&nbsp;' . 'ionCube', 
@@ -37,6 +37,6 @@ Once replaced, the $brandLogo class can be added to the NavBar in your layout:
                 ],
             ]);
             NavBar::end();
-        ?>
+	?>
 		
-you cna align the image left if you with have it inline with the usual $brandLabel in the NavBar brand section.
+you can align the image left if you with have it inline with the usual $brandLabel in the NavBar brand section.
